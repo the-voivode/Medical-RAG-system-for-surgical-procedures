@@ -1,0 +1,25 @@
+# --- Python & Virtual Environment ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Secrets & Credentials (NEVER PUSH) ---
+.env
+secrets/
+users.json
+user_data/
+
+# --- RAG Generated Artifacts (Too large / Regenerable) ---
+docs_normalized/
+data/
+rag_eval_log.txt
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
